@@ -78,3 +78,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/Asset Packs/
+Assets/Mapbox/
+Assets/ThirdPartyAssets/
+Assets/PlayServicesResolver/
