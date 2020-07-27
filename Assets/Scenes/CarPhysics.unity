@@ -269,13 +269,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_SidewaysFriction:
     m_ExtremumSlip: 1
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!114 &891635950
 MonoBehaviour:
@@ -331,7 +331,7 @@ Rigidbody:
   m_GameObject: {fileID: 1610266086554999}
   serializedVersion: 2
   m_Mass: 1000
-  m_Drag: 0.05
+  m_Drag: 0.01
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -349,8 +349,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5364039, y: 1.2807492, z: 4.425021}
-  m_Center: {x: 0.010330319, y: 0.45037466, z: 0.0132751465}
+  m_Size: {x: 1.5364039, y: 1.0125059, z: 4.425021}
+  m_Center: {x: 0.010330319, y: 0.5199478, z: 0.0132751465}
 --- !u!1 &1176461655
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,13 +405,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_SidewaysFriction:
     m_ExtremumSlip: 1
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!1 &1361100874
 GameObject:
@@ -567,13 +567,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_SidewaysFriction:
     m_ExtremumSlip: 1
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!1 &1786042468
 GameObject:
@@ -721,13 +721,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_SidewaysFriction:
     m_ExtremumSlip: 1
     m_ExtremumValue: 1
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1
-    m_Stiffness: 5
+    m_Stiffness: 1
   m_Enabled: 1
 --- !u!1 &1945903960
 GameObject:
@@ -753,7 +753,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945903960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.098, z: 0.486}
+  m_LocalPosition: {x: 0, y: 0.14, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4013072229230525}
@@ -1079,6 +1079,7 @@ GameObject:
   - component: {fileID: 891635953}
   - component: {fileID: 891635950}
   - component: {fileID: 891635951}
+  - component: {fileID: 1610266086555000}
   m_Layer: 0
   m_Name: Tocus
   m_TagString: Untagged
@@ -1086,6 +1087,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1610266086555000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610266086554999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529151857e6f2494084da50de96e7fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WheelL: {fileID: 1861724858}
+  WheelR: {fileID: 285292349}
+  AntiRoll: 50000
 --- !u!1 &1672187174370823
 GameObject:
   m_ObjectHideFlags: 0

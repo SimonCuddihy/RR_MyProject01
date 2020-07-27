@@ -10,7 +10,7 @@ public class CameraBehaviour : MonoBehaviour
     public float dampening = 1f;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position = Vector3.Lerp(transform.position,
             target.transform.position + target.transform.TransformDirection(new Vector3(0f, height, -distance)),
