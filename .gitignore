@@ -81,3 +81,6 @@ Assets/Asset Packs/
 Assets/Mapbox/
 Assets/ThirdPartyAssets/
 Assets/PlayServicesResolver/
+Assets/GoogleMaps/
+Assets/GoogleAPIKey.cs
+Assets/GoogleAPIKey.cs.meta

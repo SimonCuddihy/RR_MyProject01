@@ -227,8 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 353250064}
-  distance: 5
-  height: 5
+  distance: 2
+  height: 100
   dampening: 1
 --- !u!4 &352956464
 Transform:
@@ -5674,8 +5674,8 @@ MonoBehaviour:
           south: 1
         rangeAroundTransformOptions:
           targetTransform: {fileID: 352958256}
-          visibleBuffer: 0
-          disposeBuffer: 0
+          visibleBuffer: 3
+          disposeBuffer: 3
     placementOptions:
       placementType: 1
       snapMapToZero: 1
@@ -5684,7 +5684,7 @@ MonoBehaviour:
       unityTileSize: 100
     loadingTexture: {fileID: 2800000, guid: e2896a92727704803a9c422b043eae89, type: 3}
     tileMaterial: {fileID: 2100000, guid: b9f23e9bce724fa4daac57ecded470b8, type: 2}
-  _initializeOnStart: 0
+  _initializeOnStart: 1
   _imagery:
     _layerProperty:
       sourceType: 5
@@ -5837,7 +5837,7 @@ MonoBehaviour:
         selectedTypes: 
       - coreOptions:
           sourceId: 
-          isActive: 1
+          isActive: 0
           sublayerName: Untitled
           geometryType: 1
           layerName: road
@@ -6014,7 +6014,7 @@ MonoBehaviour:
   _autoFireEvent: 1
   _updateInterval: 0.001
   _sendEvent: 0
-  _locationLogFile: {fileID: 4900000, guid: 699efdfc47563334a95ea478b1dbf276, type: 3}
+  _locationLogFile: {fileID: 4900000, guid: e05bce632bcf6a745a18cc832c9302ab, type: 3}
 --- !u!114 &114330636618428636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6129,7 +6129,7 @@ MonoBehaviour:
   _deviceOrientationSmoothing: {fileID: 114338581525607724}
   _editorDebuggingOnly:
     _mockUnityInputLocation: 1
-    _locationLogFile: {fileID: 4900000, guid: 699efdfc47563334a95ea478b1dbf276, type: 3}
+    _locationLogFile: {fileID: 4900000, guid: e05bce632bcf6a745a18cc832c9302ab, type: 3}
 --- !u!114 &114884899701349388
 MonoBehaviour:
   m_ObjectHideFlags: 0
